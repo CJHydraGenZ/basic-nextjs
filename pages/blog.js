@@ -1,5 +1,12 @@
 import React from "react";
-
+import Head from "next/head";
 export default function blog() {
-  return <h1>blog</h1>;
+  return (
+    <>
+      <Head>
+        <title>Blog</title>
+      </Head>
+      <h1>blog</h1>;
+    </>
+  );
 }

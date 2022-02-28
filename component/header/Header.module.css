@@ -1,0 +1,17 @@
+.navbar {
+  width: 100%;
+  background-color: lightblue;
+  height: 80px;
+}
+.ula {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+}
+.btnNav {
+  color: gray;
+  border-radius: 4px;
+  width: 200px;
+  background-color: rgb(255, 145, 0);
+}
